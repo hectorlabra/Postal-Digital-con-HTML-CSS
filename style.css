@@ -1,0 +1,57 @@
+body {
+  background: rgb(36, 36, 36);
+  font-family: "Karla", sans-serif;
+}
+
+.postcard {
+  background: white;
+  border-radius: 5px;
+  width: 500px;
+  height: 400px;
+  margin: 150px auto;
+  padding: 10px;
+  justify-content: center;
+}
+
+header.title {
+  display: flex;
+}
+
+div.image img {
+  width: 40%;
+  position: relative;
+  left: 160%;
+}
+
+.paragraph {
+  width: 50%;
+  font-size: 18px;
+}
+
+.middle-section {
+  display: flex;
+}
+
+.inputform {
+  width: 100px;
+  padding: 30px;
+}
+
+.inputform [type="text"] {
+  border: none;
+  width: 200%;
+  border-bottom: 1px solid gray;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
